@@ -1,0 +1,7 @@
+.col-sm-4.ml-auto.mr-auto{margin: auto;}
+.rounded{padding: 4%;}
+.rounded .form_io{margin: auto;width: 50%;
+    padding: 2%;
+    border: 1px solid #007cc4;
+    border-radius: 5px;}
+.formlogin, .formlogin-con{margin:auto}

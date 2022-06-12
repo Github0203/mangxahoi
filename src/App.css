@@ -1,0 +1,228 @@
+*{position: relative;}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+ul, li{padding-left: 0;margin: 0;}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{background: #F1F1F1;}
+h3{margin: 0;}
+p{
+  margin-block-start:0;
+  margin-block-end:0;
+  margin-top: 0;
+}
+
+
+.container{
+  width: 80vw;
+  margin: auto;
+}
+
+
+
+
+.trangquenmatkhau{
+  width: 30%;
+  margin: auto;
+  padding: 2%;
+  border-top-left-radius: 3vw;
+  border-top-right-radius: 3vw;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  height: 50vh;
+  position: relative;
+}
+.trangquenmatkhau *{margin: 0;}
+.honcachlaymatkhau1{margin-bottom: 3px;}
+.choncachlaymatkhau1 p{
+float: left;
+}
+.choncachlaymatkhau{margin-top: 2vh;}
+.trangquenmatkhau h2{margin-bottom: 5vh;}
+.trangquenmatkhau2{
+
+}
+.trangquenmatkhau p{
+
+}
+.choncachlaymatkhau, .huybotieptuc{float: left;
+  display: inline-block;
+    width: 100%;}  
+.huybo, .tieptuc{padding: 4% 10%;
+  background: #bbb;
+  width: auto;
+  float: left;
+  border-radius: 5px;
+  margin: 5px;cursor: pointer;font-weight: 500;}
+  .huybotieptuc{position: absolute;
+    bottom: 5vh;
+    left: 0;text-align: center;width: 100%;margin: auto;}
+    .huybo_1{float: none;}
+  .huybotieptuccenter{
+    margin: auto;
+    width: 34%;
+  }
+  .huybotieptuccenter_1 {
+    margin: auto;
+    width: 18%;
+}
+.tieptuc{padding: 4% 10%;
+  background: #bbb;
+  width: auto;
+  float: left;
+  border-radius: 5px;
+  margin: 5px;cursor: pointer;font-weight: 500;;}
+  button.tieptuc{float: none;padding: 2% 4%;border: none;}
+.choncachlaymatkhau1 input, .choncachlaymatkhau2 input{margin-top: 0.8vh;    margin-right: 5px;float: left;
+}
+.yeucaulienketdatlaimatkhau{
+  width: 90%;
+  background: #2F80ED;
+  color: #fff;
+  font-weight: 500;
+  padding: 2% 0;
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.choncachlaymatkhau1, choncachlaymatkhau2{width: 100%;float: left;}
+.coa{cursor: pointer;}
+.form-control-chung{width: 85%;padding: 10px;margin-bottom: 10px;}
+.left{float: left;display: flex;}
+.right{float: right;display: flex;}
+.logo{float: left;width: 20%;margin-right: 1%;}
+.timkiem{float: left;width: 79%;}
+.timkiem input{width: 100%;    border-radius: 20px;height: 18px;}
+.inputchung, select{border: 1px solid #bbb;}
+.thanhtaskbar{padding: 1% 0;height: 40px;    border-bottom: 1px solid #bbb;
+  box-shadow: -2px 7px 16px -3px rgb(0 0 0 / 27%);z-index: 10;
+  position: fixed;
+  width: 100%;    background: #fff;}
+  .phimtat{float: left;display: flex;margin-left: 10px;position: relative;}
+  .phimtat img{float: left;}
+  .phimtat span{margin-top: auto;
+    margin-bottom: auto;margin-left: 5px;}
+  .phimtat:last-child{margin-right: 0;}
+  .relative.min-h-screen{background: url(http://localhost:3000/static/media/dangnhap.28ed77e9d6bb6ee8c8a4.jpg)  no-repeat;background-size: cover;}
+  select{
+    width: 100%;
+    height: 40px;
+    padding: 5px 5%;
+    color: #333;
+  }
+  select option { color: black; }
+  select option:first-child{
+    color: #333;
+  }
+  .matthan{position: absolute;        right: 3%;
+    top: 35px;}
+  .eye {
+    width: 13px;
+    height: 13px;
+    border: solid 1px #000;
+    border-radius:  75% 15%;
+    position: relative;
+    transform: rotate(45deg);
+  }
+  .eye:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border: solid 1px #000;
+    border-radius: 50%;
+    left: 3px;
+    top: 3px;
+  }
+  .eye1 {
+    width: 13px;
+    height: 13px;
+    border: solid 1px #000;
+    border-radius:  75% 15%;
+    position: relative;
+    transform: rotate(45deg);
+  }
+  .eye1:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border: solid 1px #333;
+    border-radius: 50%;
+    left: 3px;
+    top: 3px;
+  }
+  .eye1:after {
+    content: '/';
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 6px;
+    left: 2px;
+    top: -13px;
+    font-weight: 500;
+    font-size: x-large;
+  }
+  .bocmatkhau{position: relative;}
+  .batbuocnhap{color: #f00;}
+
+  /* ///////////////// css cho tạo bảng tin tin */
+  .taotinmoi{width: 60%;}
+  .taotinmoitren{width: 100%;}
+  .taotinmoitren input{}
+  .taotinmoitren .timkiem{float: right;}
+  .taotinmoitren img{width: 35px;height: 35px;float: left;border-radius: 100%;}
+  .taotinmoiduoi{width:100%; display: flex;}
+  .taotinmoiduoilist{width: 31%;}
+  .taotinmoiduoilist img{width: 30px;height: 30px;float: left;}
+  .taotinmoiduoilist p{float: left;margin: 0;}
+  .phimtat .thongbaotasbar{width: 15px;height: 15px;color: #fff;line-height: 15px;border: 1px solid #fff;background: #f00;border-radius: 100%;position: absolute;right: 0;text-align: center;font-size: 12px;}
+  .danhbadatimkiem{padding: 5px;}
+  .danhbadatimkiem .nutdong{float: right;}
+  .listdanhbadatimkiem{width: 100%;display: inline-block;height: 100%;line-height: 40px;}
+  .listdanhbadatimkiem .phimtat{display: contents;}
+  [role=tooltip].popup-content{width: 400px !important;}
+.titletimkiemganday{color: blue;margin-bottom: 10px;width: 50%;display: block;float: left;}
+.titlexoatatca{color: blue;margin-bottom: 10px;width: 50%;display: block;float: right;text-align: right;}
+.banquyen{height: auto;}
+
+.noicmt{display: inline-block;width: 100%;display: flex;}
