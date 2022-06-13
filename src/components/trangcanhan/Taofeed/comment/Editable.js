@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
-import ContentEditable from "react-contenteditable";
-import sanitizeHtml from "sanitize-html";
+import ContentEditable from "../../react-contenteditable";
+import sanitizeHtml from "../../sanitize-html";
 import "./styles.css";
 
 

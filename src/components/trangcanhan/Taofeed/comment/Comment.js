@@ -4,8 +4,8 @@ import "./comment.css";
 import React, { useState, useEffect } from "react";
 import data from "./data.json";
 
-import { CommentSection } from "react-comments-section";
-import "react-comments-section/dist/index.css";
+import { CommentSection } from "../../react-comments-section";
+import "../../react-comments-section/dist/index.css";
 
 import CustomInputt from "./CustomInputt";
 
