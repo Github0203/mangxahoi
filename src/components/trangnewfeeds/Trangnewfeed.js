@@ -1,10 +1,12 @@
+import { DashboardLayout } from "../Layout"
 import { Thanhtaskbar } from "../Thanhtaskbar"
+import Anhbia from "../trangcanhan/Anhbia"
 
 const Trangnewfeed = () => {
     return (
-        <>
-            <Thanhtaskbar />
-        </>
+        <DashboardLayout>
+         <Anhbia />
+        </DashboardLayout>
     )
 }
 

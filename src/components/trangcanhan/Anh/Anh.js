@@ -66,7 +66,7 @@ const Anh = () => {
             {
                 images.map((img) => {
                     return(
-                    <div><img src={img.src} /></div>
+                    <div><img src={img.src} alt=''/></div>
                     )
                 })
             }

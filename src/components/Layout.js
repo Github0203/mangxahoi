@@ -6,10 +6,10 @@ export const DashboardLayout = ({ children }) => {
 
   return (
     <BodyWrapper>
-      <div className="flex h-screen bg-gray-200">
+      <div className="">
 <Thanhtaskbar />
-        <div className="wrap">
-          <main className="content">
+        <div className="">
+          <main className="">
               <div
                 className="content-box"
                 style={{ flexGrow: 2, flexBasis: "0%" }}

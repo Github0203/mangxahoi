@@ -8,6 +8,7 @@ import Test1 from "./components/Login/Guiemail";
 import Trangnewfeed from "./components/trangnewfeeds/Trangnewfeed";
 import Test from "./Test";
 import Trangcanhan from "./components/trangcanhan/Trangcanhan";
+import Caidat from "./components/caidat/Caidat";
 
 
 const Router = () => {
@@ -25,6 +26,7 @@ const Router = () => {
             <Route exact path="/dangkythanhcong" element={<Dangkythanhcong />} />
             <Route exact path="/quenmatkhau" element={<Quenmatkhau /> } />
             <Route exact path="/datlaimatkhau" element={<Datlaimatkhau /> } />
+            <Route exact path="/caidat" element={<Caidat /> } />
             <Route exact path="/test1" element={<Test1 /> } />
             <Route exact path="/test" element={<Test /> } />
             </Routes>

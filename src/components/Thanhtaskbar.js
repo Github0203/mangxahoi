@@ -30,7 +30,9 @@ export const Thanhtaskbar = () =>{
                 
                 <input type="input" className='inputchung' placeholder='Tìm kiếm'/>
                 
-                 } position="bottom left">
+                 } position="bottom left"
+                 closeOnDocumentClick
+                 >  
                      {
                          anlisttimkiem ?
                          "Chưa có dữ liệu hiển thị"

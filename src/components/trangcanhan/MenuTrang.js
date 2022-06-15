@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Tabs, Tab, Content } from "./css/tab";
 import Widget_left_baiviet from "./Widget_left_baiviet";
 import Widget_right_baiviet from "./Widget_right_baiviet";
+import { Link } from 'react-router-dom';
 
 const MenuTrang = (props) => {
   const [active, setActive] = useState(0);
@@ -34,7 +35,7 @@ const MenuTrang = (props) => {
           check in
         </Tab>
         <Tab onClick={handleClick} active={active === 6} id={6}>
-          Cài đặt
+        <Link to='/caidat' className='nav-link'>Cài đặt</Link> 
         </Tab>
       </Tabs>
       <>

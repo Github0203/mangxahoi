@@ -17508,7 +17508,8 @@ var RegularInput = function RegularInput(_ref) {
     target: '_blank',
     href: globalStore.currentUserData.currentUserProfile
   }, React__default.createElement("img", {
-    src: globalStore.customImg || customImg || globalStore.currentUserData.currentUserImg,
+    // src: globalStore.customImg || customImg || globalStore.currentUserData.currentUserImg,
+    src: 'https://i.pinimg.com/736x/43/f8/29/43f829650bb114bb55c86b58c1c0a94e.jpg',
     style: globalStore.imgStyle || imgStyle,
     alt: 'userIcon',
     className: 'imgdefault'

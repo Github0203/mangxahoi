@@ -12,7 +12,7 @@
     height: 100vh;
 }
 
-.dangnhap .left {
+.dangnhap .leftdn {
     background: url('./logo.png');
     background-size: 46%;
     background-repeat: no-repeat;
@@ -25,9 +25,9 @@
     margin: 0;
 }
 
-.dangnhap .right {
+.dangnhap .rightdn {
     position: absolute;
-    left: 75%;
+    left: 50%;
     top: 0;
     width: 50%;
     height: 100vh;

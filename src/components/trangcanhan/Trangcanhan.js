@@ -6,6 +6,7 @@ import Banchung from "./Banchung";
 import React from 'react';
 import Moiban from "./Moiban";
 import MenuTrang from "./MenuTrang";
+import { DashboardLayout } from "../Layout";
 
 
 
@@ -13,8 +14,8 @@ import MenuTrang from "./MenuTrang";
 
 const Trangcanhan = () =>{
     return(
-        <>
-        <Thanhtaskbar />
+        <DashboardLayout>
+        
         <div className="relative bg-img">
             <div className="container">
             <Anhbia />
@@ -27,7 +28,7 @@ const Trangcanhan = () =>{
             
             </div>
             </div>
-        </>
+        </DashboardLayout>
     )
 }
 

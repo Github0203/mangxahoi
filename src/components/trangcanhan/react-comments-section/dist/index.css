@@ -166,10 +166,10 @@
   border-radius: 8px;
 }
 .form .userImg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 10px;
+  display: block;
+  margin-right:10px;
+  float: left;
+  width: 10%;
 }
 .form .postComment {
   width: 100%;

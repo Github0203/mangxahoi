@@ -4,6 +4,8 @@ import { useForm } from "react-hook-form";
 import {
     Link,useNavigate  
   } from "react-router-dom";
+import BodyWrapper from "../BodyWrapper";
+import { DashboardLayout } from "../Layout";
 
 
 const Dangnhap = () => {
@@ -26,9 +28,10 @@ const { register, handleSubmit, watch, formState: { errors } } = useForm();
 
 
     return(
+        <DashboardLayout>
         <div className="dangnhap">
-            <div className="left"></div>
-            <div className="right">
+            <div className="leftdn"></div>
+            <div className="rightdn">
             <div className="right_dangnhap">
             <div className="right_dangnhap1">
             <form onSubmit={handleSubmit(onSubmit)}>
@@ -69,7 +72,8 @@ const { register, handleSubmit, watch, formState: { errors } } = useForm();
             </div>
             </div>
             </div>
-        </div>        
+        </div>      
+        </DashboardLayout>
     )
 }
 

@@ -226,3 +226,5 @@ float: left;
 .banquyen{height: auto;}
 
 .noicmt{display: inline-block;width: 100%;display: flex;}
+.taskbar{position: relative;}
+.taskbar * {position: relative;}
