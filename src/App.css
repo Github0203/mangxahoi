@@ -127,7 +127,8 @@ float: left;
 .form-control-chung{width: 85%;padding: 10px;margin-bottom: 10px;}
 .left{float: left;display: flex;}
 .right{float: right;display: flex;}
-.logo{float: left;width: 20%;margin-right: 1%;}
+.logo{float: left;width: 20%;margin-right: 1%;width: 40px;height: 40px;margin-right: 10px;}
+.logo img{width: 100%;height: 100%;}
 .timkiem{float: left;width: 79%;}
 .timkiem input{width: 100%;    border-radius: 20px;height: 18px;}
 .inputchung, select{border: 1px solid #bbb;}
@@ -136,7 +137,7 @@ float: left;
   position: fixed;
   width: 100%;    background: #fff;}
   .phimtat{float: left;display: flex;margin-left: 10px;position: relative;}
-  .phimtat img{float: left;}
+  .phimtat img{float: left;height: 40px;width: 40px;}
   .phimtat span{margin-top: auto;
     margin-bottom: auto;margin-left: 5px;}
   .phimtat:last-child{margin-right: 0;}

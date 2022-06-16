@@ -1,5 +1,5 @@
 // Thanhtaskbar
-import logotaskbar from '../img/logo2.png';
+import logotaskbar from '../img/dangnhap.png';
 import thongbao from '../img/thongbao.png';
 import tinnhan from '../img/tinnhan.png';
 import nuttat from '../img/nuttat.png';
