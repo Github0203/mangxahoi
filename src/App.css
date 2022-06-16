@@ -17,7 +17,7 @@ a{
   }
 }
 ul, li{padding-left: 0;margin: 0;}
-
+.content-box{margin-top: 67px;}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -135,7 +135,7 @@ float: left;
 .thanhtaskbar{padding: 1% 0;height: 40px;    border-bottom: 1px solid #bbb;
   box-shadow: -2px 7px 16px -3px rgb(0 0 0 / 27%);z-index: 10;
   position: fixed;
-  width: 100%;    background: #fff;}
+  width: 100%;    background: #fff;top: 0;}
   .phimtat{float: left;display: flex;margin-left: 10px;position: relative;}
   .phimtat img{float: left;height: 40px;width: 40px;}
   .phimtat span{margin-top: auto;

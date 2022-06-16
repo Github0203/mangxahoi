@@ -27,6 +27,8 @@ import Danhsachxoataikhoan from './Danhsachxoataikhoan';
 import Danhsachvitri from './Danhsachvitri';
 import Danhsachthongitncuaban from './Danhsachthongitncuaban';
 import Danhsachxacminh from './Danhsachxacminh';
+import BodyWrapper from '../BodyWrapper';
+import { DashboardLayout } from '../Layout';
 
 
 const Caidat = () => {
@@ -318,7 +320,7 @@ const Caidat = () => {
         
     };
     return (
-        <>
+        <DashboardLayout>
             <div className='caidatleft'>
                 <ul>
                     {/* { menu.map((a,i) => {
@@ -434,7 +436,7 @@ const Caidat = () => {
                     ''
                 }
             </div>
-        </>
+        </DashboardLayout>
     )
 }
 
