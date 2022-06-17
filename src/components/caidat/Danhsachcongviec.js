@@ -8,7 +8,7 @@ const Danhsachcongviec = () => {
     return (
         <div className="divchungcaidat">
             <div className='titlecd'>
-                <EditIcon /><span>Căn bản</span>
+                <EditIcon /><span>Công việc</span>
             </div>
             <div className='inputnd'>
                 <div className='ctnd'>

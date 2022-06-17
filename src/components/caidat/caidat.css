@@ -137,9 +137,11 @@
     gap: 6px;    border-bottom: 1px solid #bbb;
     padding: 10px 0;display: inline-block;}
 .inputnd .phai{float: right;}
+.inputnd .phai.mxh{float: left;width: 100%;}
 .inputnd span.span{width: -webkit-fill-available;margin-bottom: 10px;display: inline-block;text-align: left;}
 .inputnd span.span.mota{font-style: italic;color: #bbb;}
 .inputnd .trai{float: left;}
+.inputnd .trai.cha{float: right;}
 .inputnd span.left{float: left;line-height: 35px;}
 .inputnd input, .inputnd .trai.ip .css-b62m3t-container{    padding: 0 10px;
     width: 246px;
@@ -168,6 +170,9 @@
         background: #2F80ED;
         border-radius: 5px;padding: 10px;display: inline-block;}
         .inputnd .trai input{top: 0;border-radius: 5px;width: 93%;}
+        .inputnd .trai .phai input{width: 73%;
+            top: -19px;border-top-left-radius: 0;border-bottom-left-radius: 0;
+        }
         .inputnd .phai.ip input{top: 0;border-radius: 5px;}
         .inputnd .phai.ip{text-align: right;width: 43%;}
         .inputnd .trai.ip{text-align: left;width: 43%;}

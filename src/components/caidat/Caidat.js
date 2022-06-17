@@ -190,7 +190,6 @@ const Caidat = () => {
         setLienketmangxahoi(false);
         setHocvan(true);
         setMatkhau(false);
-        setMatkhau(false);
         setQuanlyphien(false);
         setRiengtu(false);
         setThongbao(false);
