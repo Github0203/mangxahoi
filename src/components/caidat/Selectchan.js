@@ -56,6 +56,7 @@
 import "antd/dist/antd.css";
 import { Select } from "antd";
 import { useState } from "react";
+import { CloseCircleTwoTone } from '@ant-design/icons';
 
 const Test = () => {
     const { Option } = Select;
@@ -75,18 +76,19 @@ const Test = () => {
     ];
 
     const [datas, setDatas] = useState(initial_data);
+    const handleClear = () => {
+      setDatas([]);
+      alert("huhu");
+    };
     return (
-        <div className="" style={{ width: "40%", margin: "auto" }}>
-            <p>Danh sách tìm kiếm</p>
+        <div>
             <Select
                 mode="multiple"
-                style={{ width: "100%" }}
-                placeholder="Please select"
+                placeholder="Tìm kiếm ai đó"
                 // defaultValue={["a10", "c12"]}
                 // onChange={handleChange}
-                onClick={(value) => {
-                        
-                }}
+                allowClear={{clearIcon:<CloseCircleTwoTone twoToneColor="#FFFFFF"/>}}
+                className="slchan"
             >
                 {datas.map((data, index) => (
                     data.status === false ?
@@ -96,8 +98,6 @@ const Test = () => {
                             onClick={(e) => {
                                 data.status = true;
                                 setDatas([...datas]);
-                                console.log(datas);
-                                alert("N.0.A")
                             }
                             }
                             >{data.name}</p>
@@ -106,12 +106,21 @@ const Test = () => {
                         ""
                 ))}
             </Select>
+            <div className='luuthaydoi chan'>
+                <span onClick={handleClear}>Lưu thay đổi</span>
+            </div>
             <br />
-            danh sach đã chon
+            <p className='xmt'>Danh sách bị chặn</p>
             {datas.map((data, index) => (
                 data.status === true ?
                     <li key={index}>
-                        {data.name}
+                        {data.name} <span
+                        onClick={(e) => {
+                          data.status = false;
+                          setDatas([...datas]);
+                      }
+                      }
+                        >X</span>
                     </li>
                     :
                     ""

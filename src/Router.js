@@ -6,9 +6,9 @@ import Datlaimatkhau from "./components/Login/Datlaimatkhau";
 import Quenmatkhau from "./components/Login/Quenmatkhau"
 import Test1 from "./components/Login/Guiemail";
 import Trangnewfeed from "./components/trangnewfeeds/Trangnewfeed";
-import Test from "./Test";
 import Trangcanhan from "./components/trangcanhan/Trangcanhan";
 import Caidat from "./components/caidat/Caidat";
+import Test from "./Test";
 
 
 const Router = () => {

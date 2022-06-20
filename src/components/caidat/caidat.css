@@ -4,6 +4,7 @@
     border-right: 1px solid #bbb;
     height: 100vh;
     padding: 1%;
+    margin-right: 10%;
 }
 
 .caidatleft ul {
@@ -22,6 +23,8 @@
 
 .caidatleft li svg,
 .divchungcaidat svg {
+    width: 45px;
+    height: 45px;
     top: 15px;
     margin-right: 5px;
     padding: 10px;
@@ -56,7 +59,6 @@
 }
 
 .caidatright {
-    float: right;
     width: 60%;
     display: inline-block;
 }
@@ -73,7 +75,7 @@
 
 .divchungcaidat {
     padding: 30px;
-    width: 60%;
+    width: 86%;
     float: left;
     border-left: 1px solid #bbb;
     border-right: 1px solid #bbb;
@@ -97,7 +99,11 @@
     border-radius: 5px;
     margin: 10px 0;
 }
+.xacminh.tb{padding: 0;background: none;}
+.xacminh.tb *{color: #000;}
 .xacminh svg{border: 1px solid #fff;background: #fff;color: rgba(252, 74, 74, 0.87);}
+.xacminh.mk{background:1 #AFAA31;}
+.xacminh.mk.dx{background: rgba(252, 74, 74, 0.87);}
 .divchungcaidat p {
     margin: 10px 0;
     font-weight: bold;
@@ -116,6 +122,7 @@
     display: inline-block;
     color: #fff;
 }
+.ndnd span.bold{font-weight: bold;}
 
 .btnd {
     width: 33%;
@@ -136,6 +143,7 @@
     align-items: center;
     gap: 6px;    border-bottom: 1px solid #bbb;
     padding: 10px 0;display: inline-block;}
+    .inputnd.dx{border-bottom: none;}
 .inputnd .phai{float: right;}
 .inputnd .phai.mxh{float: left;width: 100%;}
 .inputnd span.span{width: -webkit-fill-available;margin-bottom: 10px;display: inline-block;text-align: left;}
@@ -162,10 +170,15 @@
     padding: 5px 10px;}
     .inputnd span.sp{    padding: 10px;    padding-bottom: 14px;
     }
+    .inputnd .mk svg{    background: no-repeat;
+        border: none;
+        width: 45px;
+        color: #fff;}
     .phai input.ttt{top: 0;}
     .luuthaydoi{display: inline-block;width: 100%;text-align: right;margin-top: 10px;}
+    .luuthaydoi.chan{width: auto;float: left;margin: 0;}
     .luuthaydoi span{color: #fff;width: fit-content;
-        height: 24px;
+        height: 40px;
         
         background: #2F80ED;
         border-radius: 5px;padding: 10px;display: inline-block;}
@@ -176,6 +189,7 @@
         .inputnd .phai.ip input{top: 0;border-radius: 5px;}
         .inputnd .phai.ip{text-align: right;width: 43%;}
         .inputnd .trai.ip{text-align: left;width: 43%;}
+        .inputnd .trai.ip.chan{width: 100%;}
         .inputnd .ip.ntn{width: 30%;}
         .ctnd{display: inline-block;width: 100%;}
         .ctnd.ntn{display: flex;width: 100%;flex-direction: row;
@@ -195,3 +209,24 @@
     .xacthucluuthaydoi{display: inline-block;background: #49F25A;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 5px;padding: 10px;width: 97%;margin-top: 10px;color: #fff;}
+        .tbcd{float: left;position: relative;}
+        .luuthaydoi.tb{padding-top: 10px;border-top: 1px solid #bbb;}
+.xacminhcc{width: 100%;display: inline-block;}
+.xacminhcc span{}
+.xacminhcc img{width: 74%;
+    height: auto;
+    display: table;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #bbb;}
+.xacminhanh{width: 48%;float: left;text-align: center;}
+.xacminhcm{width: 48%;float: right;text-align: center;}
+p.xmt   {display: inline-block;width: 100%;text-align: left;font-weight: normal;}
+.noidungcd textarea{width: 97%;display: inline-block;height: 110px;border-radius: 3px;padding: 10px;}
+.xacminh.xacminh{width: 97.3%;}
+.xacminh.xl{background: #AFAA31;}
+.xacminh.ht{background: #49F25A;}
+p.ct{text-align: center;}
+.Select-input > input{width: auto !important;}
+.ant-select.slchan{width: 43%;float: left;margin-right: 20px;}

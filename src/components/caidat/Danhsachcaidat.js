@@ -10,7 +10,7 @@ const Danhsachcaidat = () => {
             </div>
             <div className='noidungcd'>
                 <p>ĐỊA CHỈ EMAIL</p>
-                <div className='xacminh mk'>
+                <div className='xacminh'>
                     <PriorityHighIcon />
                     <div className='ndnd'>
                         <span>	Yêu cầu xác minh email</span>

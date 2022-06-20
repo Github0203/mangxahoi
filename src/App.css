@@ -16,6 +16,15 @@ a{
     animation: App-logo-spin infinite 20s linear;
   }
 }
+p{margin: 0;}
+.inputchung, select {    
+  height: 40px;
+  width: -webkit-fill-available;
+  padding: 10px 5%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  outline: #fff;
+}
 ul, li{padding-left: 0;margin: 0;}
 .content-box{margin-top: 67px;}
 .App-header {
@@ -130,9 +139,9 @@ float: left;
 .logo{float: left;width: 20%;margin-right: 1%;width: 40px;height: 40px;margin-right: 10px;}
 .logo img{width: 100%;height: 100%;}
 .timkiem{float: left;width: 79%;}
-.timkiem input{width: 100%;    border-radius: 20px;height: 18px;}
+.timkiem input{width: 100%;    border-radius: 20px;height: 38px;}
 .inputchung, select{border: 1px solid #bbb;}
-.thanhtaskbar{padding: 1% 0;height: 40px;    border-bottom: 1px solid #bbb;
+.thanhtaskbar{padding: 1% 0;height: 67px;    border-bottom: 1px solid #bbb;
   box-shadow: -2px 7px 16px -3px rgb(0 0 0 / 27%);z-index: 10;
   position: fixed;
   width: 100%;    background: #fff;top: 0;}
@@ -229,3 +238,14 @@ float: left;
 .noicmt{display: inline-block;width: 100%;display: flex;}
 .taskbar{position: relative;}
 .taskbar * {position: relative;}
+.trenhet{z-index: 9999;}
+.ant-select-multiple .ant-select-selection-item-remove > .anticon svg{    width: auto;
+  height: auto;
+  padding: 0;
+  background: no-repeat;
+  border: navajowhite;
+  top: 1px;
+}
+.ant-select-multiple .ant-select-selection-item-content p{margin: 0 ;}
+.ant-select-selection-overflow{height: 40px;}
+.ant-select-clear{opacity: 1 !important;}
