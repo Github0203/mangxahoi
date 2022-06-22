@@ -16,6 +16,8 @@ a{
     animation: App-logo-spin infinite 20s linear;
   }
 }
+html{height: 100%;}
+body{background: #f1f1f1 !important;height: 100%;}
 p{margin: 0;}
 .inputchung, select {    
   height: 40px;
@@ -26,7 +28,9 @@ p{margin: 0;}
   outline: #fff;
 }
 ul, li{padding-left: 0;margin: 0;}
-.content-box{margin-top: 67px;}
+.content-box{margin-top: 67px;    height: 100vh;
+  display: inline-block;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -51,7 +55,7 @@ ul, li{padding-left: 0;margin: 0;}
   }
 }
 
-body{background: #F1F1F1;}
+
 h3{margin: 0;}
 p{
   margin-block-start:0;
@@ -249,3 +253,4 @@ float: left;
 .ant-select-multiple .ant-select-selection-item-content p{margin: 0 ;}
 .ant-select-selection-overflow{height: 40px;}
 .ant-select-clear{opacity: 1 !important;}
+.maudo{color: #f00;}

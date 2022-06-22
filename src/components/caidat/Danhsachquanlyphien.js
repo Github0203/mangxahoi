@@ -16,7 +16,7 @@ const Danhsachquanlyphien = () => {
                 <div className='xacminh mk dx'>
                     <ExitToAppIcon />
                     <div className='ndnd'>
-                        <span>Thay đổi mật khẩu sẽ đăng xuất bạn khỏi tất cả các phiên khác</span>
+                        <span>Đăng xuất khỏi tất cả các phiên</span>
                     </div>
                 </div>
             </div>

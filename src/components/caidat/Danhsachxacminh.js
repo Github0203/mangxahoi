@@ -29,9 +29,8 @@ const Danhsachxacminh = () => {
             <textarea placeholder="Thêm một vài thông tin (không bắt buộc)...">
 </textarea>
             <p className='xmt'>Vui lòng chia sẻ lý do tại sao tài khoản của bạn nên được xác minh</p>
-        </div>
-        <div className='xacminh xm'>
-                    <div className='ndnd'>
+            <div className='xacminh xm'>
+                    <div className='ndnd chan'>
                         <span>Vui lòng đính kèm ảnh của bạn và hộ chiếu hoặc chứng minh nhân dân của bạn</span>
                     </div>
                 </div>
@@ -45,6 +44,8 @@ const Danhsachxacminh = () => {
                         <span>Yêu cầu xác minh đã hoàn tất</span>
                     </div>
                 </div>
+        </div>
+      
         <div className='luuthaydoi tb'>
             <span>Lưu thay đổi</span>
         </div>

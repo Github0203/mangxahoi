@@ -5,6 +5,7 @@
     height: 100vh;
     padding: 1%;
     margin-right: 10%;
+    background: #fff;
 }
 
 .caidatleft ul {
@@ -59,8 +60,9 @@
 }
 
 .caidatright {
-    width: 60%;
+    width: 54%;
     display: inline-block;
+    height: 100vh;
 }
 
 .caidatleft ul li ul {
@@ -74,12 +76,14 @@
 }
 
 .divchungcaidat {
-    padding: 30px;
-    width: 86%;
+    padding: 2%;
+    width: 96%;
     float: left;
     border-left: 1px solid #bbb;
     border-right: 1px solid #bbb;
     height: 100%;
+    background: #fff;
+    display: inline-table;
 }
 
 .divchungcaidat .titlecd {
@@ -102,7 +106,7 @@
 .xacminh.tb{padding: 0;background: none;}
 .xacminh.tb *{color: #000;}
 .xacminh svg{border: 1px solid #fff;background: #fff;color: rgba(252, 74, 74, 0.87);}
-.xacminh.mk{background:1 #AFAA31;}
+.xacminh.mk{background: #AFAA31;}
 .xacminh.mk.dx{background: rgba(252, 74, 74, 0.87);}
 .divchungcaidat p {
     margin: 10px 0;
@@ -121,14 +125,15 @@
     width: 100%;
     display: inline-block;
     color: #fff;
+    height: 45px;
+    line-height: 45px;
 }
+.ndnd.chan span{line-height: 20px;height: auto;}
 .ndnd span.bold{font-weight: bold;}
 
 .btnd {
-    width: 33%;
+    width: 34%;
     padding: 10px;
-    ;
-
     background: #49F25A;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
@@ -154,15 +159,15 @@
 .inputnd input, .inputnd .trai.ip .css-b62m3t-container{    padding: 0 10px;
     width: 246px;
     height: 45px;
-    top: -19px;
+    top: -17px;
     border: 1px solid #CDCDCD;
     border-radius: 0px 5px 5px 0px;
     margin-right: 0;
     border: 1px solid #bbb;
     color: #000;}
-    .inputnd input.inputcd{width: 93%;}
-.inputnd svg, .inputnd span.sp{width: 35px;
-    height: 35px;
+    .inputnd input.inputcd{width: 100%;}
+.inputnd svg, .inputnd span.sp{width: 45px;
+    height: 45px;
     
     background: #CDCDCD;
     border-radius: 5px 0px 0px 5px;border: 1px solid #bbb;
@@ -174,17 +179,17 @@
         border: none;
         width: 45px;
         color: #fff;}
-    .phai input.ttt{top: 0;}
-    .luuthaydoi{display: inline-block;width: 100%;text-align: right;margin-top: 10px;}
+    .phai input.ttt{top: 2px;}
+    .luuthaydoi{display: inline-block;width: 100%;text-align: right;margin-top: 10px;cursor: pointer;}
     .luuthaydoi.chan{width: auto;float: left;margin: 0;}
     .luuthaydoi span{color: #fff;width: fit-content;
         height: 40px;
         
         background: #2F80ED;
         border-radius: 5px;padding: 10px;display: inline-block;}
-        .inputnd .trai input{top: 0;border-radius: 5px;width: 93%;}
+        .inputnd .trai input{top: 0;border-radius: 5px;width: 100%;}
         .inputnd .trai .phai input{width: 73%;
-            top: -19px;border-top-left-radius: 0;border-bottom-left-radius: 0;
+            top: -17px;border-top-left-radius: 0;border-bottom-left-radius: 0;
         }
         .inputnd .phai.ip input{top: 0;border-radius: 5px;}
         .inputnd .phai.ip{text-align: right;width: 43%;}
@@ -201,14 +206,14 @@
         .inputnd .trai.ip .css-1pahdxg-control {height: 100%;display: block;height: 100%;}
         .inputnd .trai.ip .css-1hb7zxy-IndicatorsContainer {height: 100%;}
         .inputnd .trai.ip.mt{width: 100%;}
-        .inputnd .trai.ip.mt input{width: 97%;}
+        .inputnd .trai.ip.mt input{width: 100%;}
 .css-b62m3t-container svg{background: no-repeat;
     border: none;height: 20px;width: 20px;}
     .css-6j8wv5-Input{width: 100%;}
     span.span.ns{width: 100%;}
     .xacthucluuthaydoi{display: inline-block;background: #49F25A;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;padding: 10px;width: 97%;margin-top: 10px;color: #fff;}
+        border-radius: 5px;padding: 10px;width: 100%;margin-top: 10px;color: #fff;}
         .tbcd{float: left;position: relative;}
         .luuthaydoi.tb{padding-top: 10px;border-top: 1px solid #bbb;}
 .xacminhcc{width: 100%;display: inline-block;}
@@ -224,9 +229,20 @@
 .xacminhcm{width: 48%;float: right;text-align: center;}
 p.xmt   {display: inline-block;width: 100%;text-align: left;font-weight: normal;}
 .noidungcd textarea{width: 97%;display: inline-block;height: 110px;border-radius: 3px;padding: 10px;}
-.xacminh.xacminh{width: 97.3%;}
+.xacminh.xacminh{width: 100%;}
 .xacminh.xl{background: #AFAA31;}
 .xacminh.ht{background: #49F25A;}
 p.ct{text-align: center;}
 .Select-input > input{width: auto !important;}
 .ant-select.slchan{width: 43%;float: left;margin-right: 20px;}
+.bochanclick{cursor: pointer;}
+.giua{display: inline-block;width: 100%;text-align: center;}
+.xoataikhoan{padding: 10px;border: 5px;color: #fff;background: rgba(252, 74, 74, 0.87);
+    width: 25%;
+    border-radius: 5px;
+    margin: auto;
+    height: 45px;
+}
+.xoataikhoan svg{background: none;border: none;border-radius: 0;color: #fff;float: left;}
+.xoataikhoan svg{    top: -10px;
+    float: left;}

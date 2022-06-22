@@ -76,10 +76,15 @@ const Test = () => {
     ];
 
     const [datas, setDatas] = useState(initial_data);
-    const handleClear = () => {
-      setDatas([]);
-      alert("huhu");
-    };
+    const [datatemp, setDatatemp] = useState(datas);
+    const [selected, setSelected] = useState(false);
+    const [rong, setRong] = useState([]);
+    const clearSelected = () => {
+        // this line will clear the select
+        // when you click on the button
+        setDatas([...datatemp]);
+        setSelected(true);
+      }
     return (
         <div>
             <Select
@@ -87,8 +92,14 @@ const Test = () => {
                 placeholder="Tìm kiếm ai đó"
                 // defaultValue={["a10", "c12"]}
                 // onChange={handleChange}
-                allowClear={{clearIcon:<CloseCircleTwoTone twoToneColor="#FFFFFF"/>}}
+                // allowClear={{clearIcon:<CloseCircleTwoTone twoToneColor="#FFFFFF"/>}}
                 className="slchan"
+                // value={
+                //     selected ?
+                //     rong
+                //     :
+                //     undefined
+                // }
             >
                 {datas.map((data, index) => (
                     data.status === false ?
@@ -97,7 +108,7 @@ const Test = () => {
                             <p className="trenhet"
                             onClick={(e) => {
                                 data.status = true;
-                                setDatas([...datas]);
+                                setDatatemp(datas);
                             }
                             }
                             >{data.name}</p>
@@ -107,20 +118,20 @@ const Test = () => {
                 ))}
             </Select>
             <div className='luuthaydoi chan'>
-                <span onClick={handleClear}>Lưu thay đổi</span>
+                <span onClick={clearSelected}>Lưu thay đổi</span>
             </div>
             <br />
             <p className='xmt'>Danh sách bị chặn</p>
             {datas.map((data, index) => (
                 data.status === true ?
                     <li key={index}>
-                        {data.name} <span
+                        {data.name} <span className="maudo bochanclick"
                         onClick={(e) => {
                           data.status = false;
                           setDatas([...datas]);
                       }
                       }
-                        >X</span>
+                        >Bỏ chặn</span>
                     </li>
                     :
                     ""

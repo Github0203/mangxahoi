@@ -25,7 +25,7 @@ const Danhsachchan = () => {
             <div className='noidungcd'>
                 <div className='xacminh mk xl'>
                     <WarningIcon />
-                    <div className='ndnd'>
+                    <div className='ndnd chan'>
                         <span>Ngay khi bạn chặn ai đó, người này không thể xem nội dung đăng trên dòng thời gian của bạn, gắn thẻ bạn, mời bạn tham gia sự kiện hoặc nhóm, bắt đầu cuộc trò chuyện với bạn hay thêm bạn vào danh sách bạn bè nữa.</span>
                     </div>                    
                 </div>
