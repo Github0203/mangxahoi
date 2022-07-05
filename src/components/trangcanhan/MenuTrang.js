@@ -3,6 +3,7 @@ import { Tabs, Tab, Content } from "./css/tab";
 import Widget_left_baiviet from "./Widget_left_baiviet";
 import Widget_right_baiviet from "./Widget_right_baiviet";
 import { Link } from 'react-router-dom';
+import Checkin from "./checkin/Checkin";
 
 const MenuTrang = (props) => {
   const [active, setActive] = useState(0);
@@ -58,7 +59,9 @@ const MenuTrang = (props) => {
           <h1>Content 5</h1>
         </Content>
         <Content active={active === 5}>
-          <h1>Content 6</h1>
+        <div className="content_trang ck">
+           <Checkin />
+            </div>
         </Content>
         <Content active={active === 6}>
           <h1>Content 7</h1>

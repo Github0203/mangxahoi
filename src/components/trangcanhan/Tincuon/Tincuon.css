@@ -76,3 +76,9 @@
   .slick-prev:before{right: 0;top: 0;}
   .slick-arrow:hover{background: none;}
   .slidenoibat{text-align: center;}
+  .slick-next{right: -73px;}
+  .slick-prev {
+    left: -73px;
+    top: 50%;
+    z-index: 1;
+}

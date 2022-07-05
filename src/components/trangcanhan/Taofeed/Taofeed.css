@@ -5,8 +5,8 @@ input:focus {
     outline-offset: 0px;
     outline: none;
   }
-.khungtaofeed{width: 92.5%;padding: 20px;background: #fff;box-shadow: 0px 4px 4px 0px #00000040;border-radius: 10px;border: 1px solid #bbb;
-height: 113px;display: inline-block;margin-bottom: 20px;}
+.khungtaofeed{width: 100%;padding: 20px;background: #fff;box-shadow: 0px 4px 4px 0px #00000040;border-radius: 10px;border: 1px solid #bbb;
+height: 135px;display: inline-block;margin-bottom: 20px;}
 .khungtaofeedtop{width: 100%;float: left;}
 .khungtaofeedbottom{width: 100%;float: left;display: flex;}
 .khungtaofeedbottom1{display: flex;width: 100%;float: left;position: absolute;

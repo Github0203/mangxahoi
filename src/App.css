@@ -16,6 +16,73 @@ a{
     animation: App-logo-spin infinite 20s linear;
   }
 }
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 2rem;
+  padding: 1rem;
+  padding-right: 2rem;
+}
+/* /////////////// thanh cuộn*/
+.caidatright::-webkit-scrollbar, .giuanewfeed::-webkit-scrollbar {
+  -webkit-appearance: none;
+  opacity: 0;
+}
+.caidatright::-webkit-scrollbar, .giuanewfeed::-webkit-scrollbar {
+width: 0px;
+opacity: 0;
+}
+
+.caidatright::-webkit-scrollbar-track, .giuanewfeed::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+.caidatright::-webkit-scrollbar-thumb, .giuanewfeed::-webkit-scrollbar-thumb {
+background: #0d6efd; 
+  height:0px;
+  border-radius:5px;
+  opacity: 0;
+}
+
+.caidatleft::-webkit-scrollbar-thumb:hover, .trainewfeed::-webkit-scrollbar-thumb:hover,.phainewfeed::-webkit-scrollbar-thumb:hover {
+background: blue; 
+opacity: 0;
+}
+
+
+.caidatleft::-webkit-scrollbar, .trainewfeed::-webkit-scrollbar,.phainewfeed::-webkit-scrollbar {
+  -webkit-appearance: none;
+  opacity: 0;
+}
+.caidatleft::-webkit-scrollbar, .trainewfeed::-webkit-scrollbar, .phainewfeed::-webkit-scrollbar {
+width: 0px;
+opacity: 0;
+}
+
+.caidatleft::-webkit-scrollbar-track, .trainewfeed::-webkit-scrollbar-track, .phainewfeed::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+.caidatleft::-webkit-scrollbar-thumb, .trainewfeed::-webkit-scrollbar-thumb, .phainewfeed::-webkit-scrollbar-thumb {
+background: #0d6efd; 
+  height:0px;
+  border-radius:5px;
+  opacity: 0;
+}
+
+.caidatleft::-webkit-scrollbar-thumb:hover, .trainewfeed::-webkit-scrollbar-thumb:hover, .phainewfeed::-webkit-scrollbar-thumb:hover {
+background: blue; 
+opacity: 0;
+width: 5px;
+}
+/* ///////////////// */
 html{height: 100%;}
 body{background: #f1f1f1 !important;height: 100%;}
 p{margin: 0;}
@@ -30,6 +97,8 @@ p{margin: 0;}
 ul, li{padding-left: 0;margin: 0;}
 .content-box{margin-top: 67px;    height: 100vh;
   display: inline-block;
+  width:100%;
+  overflow: inherit;
 }
 .App-header {
   background-color: #282c34;

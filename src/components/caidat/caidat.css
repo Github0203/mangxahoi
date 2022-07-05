@@ -6,6 +6,9 @@
     padding: 1%;
     margin-right: 10%;
     background: #fff;
+    overflow-y: scroll;
+    perspective-origin: right top;
+    position: relative;
 }
 
 .caidatleft ul {
@@ -63,6 +66,15 @@
     width: 54%;
     display: inline-block;
     height: 100vh;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    position: relative;
+    align-items: stretch;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-direction: row;
+    overflow-y: scroll;
 }
 
 .caidatleft ul li ul {

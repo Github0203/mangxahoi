@@ -1,11 +1,13 @@
-import { DashboardLayout } from "../Layout"
-import { Thanhtaskbar } from "../Thanhtaskbar"
-import Anhbia from "../trangcanhan/Anhbia"
-
+import { DashboardLayout } from "../Layout";
+import './trangnewfeed.css';
 const Trangnewfeed = () => {
     return (
         <DashboardLayout>
-         <Anhbia />
+         <div className="newfeed">
+            <div className="trainewfeed"></div>
+            <div className="giuanewfeed"></div>
+            <div className="phainewfeed"></div>
+         </div>
         </DashboardLayout>
     )
 }
